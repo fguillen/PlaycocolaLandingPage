@@ -1,16 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;400;600;700&display=swap');
 
-.font-logo {
-  font-family: 'Odibee Sans', cursive;
-}
 
-.font-hero {
-  font-family: 'Glory', sans-serif;
-}
 
 body {
-  background-color: #bcb7a7;
+
 }
 
 .highlighted {
@@ -34,7 +28,7 @@ strong {
 }
 
 .container {
-    max-width: 730px;
+    // max-width: 730px;
 }
 
 .asterisk {
@@ -42,6 +36,37 @@ strong {
     vertical-align: top;
 }
 
+/* Colors */
+.color-background-1 {
+  background-color: #E1DED5;
+}
+
+.color-background-2 {
+  background-color: #BCB7A7;
+}
+
+.color-background-3 {
+  background-color: #9A8C80;
+}
+
+/* Fonts */
+.font-logo {
+  font-family: 'Odibee Sans', cursive;
+}
+
+.font-hero {
+  font-family: 'Glory', sans-serif;
+}
+
+.font-size-hero {
+  font-size: 2em;
+}
+
+/* Index */
+.card-index {
+  border: none;
+  border-radius: 0;
+}
 
 /* mailerlite form */
 

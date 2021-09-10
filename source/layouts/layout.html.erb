@@ -33,9 +33,9 @@
         });
     </script>
   </head>
-  <body class="font-hero">
-    <div class="container py-3">
-        <header>
+  <body class="font-hero color-background-1">
+    <div class="container-fluid p-0">
+        <header class='container'>
             <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
                 <a href="./" class="d-flex align-items-center text-dark text-decoration-none">
                     <%= image_tag "Logo.png", alt: "Playcocola", height: 32, class: "me-2"%>
@@ -56,7 +56,7 @@
         <footer class="pt-5 my-5 text-muted border-top text-center">
             <%= t("footer.text") %>  &middot; <a class="me-3 py-2 text-dark" href="mailto:hello@playcocola.com" target="_blank"><%= t("menu.contact") %> <br />
             <a href="/es">España</a> &middot; <a href="/">Germany</a>
-         </footer>
+        </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
