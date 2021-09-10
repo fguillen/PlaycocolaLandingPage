@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="<%= t("description") %>">
+    <meta name="keywords" content="<%= t("keywords") %>">
+    <meta name="author" content="Playcocola">
+    <link rel="icon" href="<%= image_path "favicon.png" %>" type="image/png">
+    <title>Playcocola · <%= t("#{current_page.path.match(/(\w+)\./)[1]}.title") %></title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+
+    <%= stylesheet_link_tag "site" %>
+    <%= javascript_include_tag "site" %>
+
+    <!-- Cookies -->
+    <script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.1/src/glowCookies.min.js"></script>
+    <script>
+        glowCookies.start('<%= t("cookies.locale") %>', {
+            style: 3,
+            analytics: 'UA-198983266-1',
+            policyLink: './privacy_policy',
+            bannerHeading: '<h2><%= t("cookies.header") %></h2>',
+            bannerDescription: "<%= t("cookies.description") %>",
+            bannerLinkText: "<%= t("cookies.link") %>",
+            acceptBtnText: '<%= t("cookies.accept") %>',
+            rejectBtnText: '<%= t("cookies.reject") %>',
+            hideAfterClick: true
+        });
+    </script>
+  </head>
+  <body class="font-hero">
+    <div class="container py-3">
+        <header>
+            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+                <a href="./" class="d-flex align-items-center text-dark text-decoration-none">
+                    <%= image_tag "Logo.png", alt: "Playcocola", height: 32, class: "me-2"%>
+                    <span class="fs-4 font-logo">Playcocola</span>
+                </a>
+
+                <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+                    <a class="me-3 py-2 text-dark text-decoration-none" href="./"><%= t("menu.home") %></a>
+                    <a class="me-3 py-2 text-dark text-decoration-none" href="./faq"><%= t("menu.faq") %></a>
+                    <a class="me-3 py-2 text-dark text-decoration-none" href="./pricing"><%= t("menu.pricing") %></a>
+                    <a class="py-2 text-dark text-decoration-none btn btn-warning" href="./subscribe"><%= t("menu.promotion") %></a>
+                </nav>
+            </div>
+        </header>
+
+        <%= yield %>
+
+        <footer class="pt-5 my-5 text-muted border-top text-center">
+            <%= t("footer.text") %>  &middot; <a class="me-3 py-2 text-dark" href="mailto:hello@playcocola.com" target="_blank"><%= t("menu.contact") %> <br />
+            <a href="/es">España</a> &middot; <a href="/">Germany</a>
+         </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+</body>
+
+</html>

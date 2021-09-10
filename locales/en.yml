@@ -1,0 +1,126 @@
+---
+en:
+  hello: "Hello"
+  country: Germany
+  subscribe_button: I'm interested
+  mailerlite_form: 3944242:q0d3q7
+  description: Read all the best award winner graphic novels at a fraction of their price in the comfort of your home. With free delivery to the whole Germany.
+  keywords: award winning graphic novels, best graphic novels, cheap graphic novels, second hand graphic novels
+
+  cookies:
+    locale: en
+    header: The cookies
+    description: We use Google Analytics cookies to measure our marketing efforts, if this is ok for you please click Accept :)
+    link: Check our Privacy Policy
+    accept: Accept
+    reject: Reject
+
+  menu:
+    home: Home
+    faq: FAQ
+    pricing: Pricing
+    contact: Contact
+    promotion: I'm interested
+
+  footer:
+    text: Made with ♥ in Berlin &middot; Playcocola &copy; 2021
+
+  index:
+    title: All the award winner graphic novels at a fraction of their price
+    button: I'm interested
+    header: >-
+      Are you an indie developer?
+
+
+      Do you want to easily receive videos from your playtesters?
+    header_sub: what do you think if I tell you that you can read all these award winner graphic novels for <strong>6€ each</strong> or less?
+    service_description: read all the best award winner graphic novels at a fraction of their price in the comfort of your home. With free delivery to the whole Germany.
+    how_it_works: How it works
+    steps:
+      1_header: "#1 Select your interests and the quantity"
+      1_text: select your interests. Select also how many graphic novels you want to read each month.
+      2_header: "#2 Receive your graphic novels"
+      2_text: you receive the graphic novels at your home.
+      3_header: "#3 Exchange your graphic novels for other ones"
+      3_text: "send us back, free of charge, your graphic novels already read and go back to step #2."
+
+  faq:
+    title: Questions and Answers
+    header: if you don't find your answers here you can <a href="mailto:hello@playcocola.com" target="_blank">contact us</a> to make your questions.
+    questions: >-
+        #### What is this?
+
+        It is an online platform to make super easy for indie desktop videogame developers to receive videos from their playtesters sessions.
+
+        #### Why should I use it?
+
+        Watching players playing your game is the best way to
+
+        #### Why only desktop games?
+
+        We want to specialize on desktop games so we are sure we do one thing good. When we manage to do this we will think about adopting other devices.
+
+        #### Is the platform ready?
+
+        No yet, we are in development, if you are interested in knowing more [subscribe to our mailing list](./subscribe) or [contact us](mailto:hello@playcocola.com) directly.
+
+        #### Can I make suggestions?
+
+        Yes please: [contact us](mailto:hello@playcocola.com)
+
+
+
+  subscribe:
+    title: Get informed
+    header: We will launch this service very soon. Be informed and participate in collaborate suggesting functionalities.
+
+  confirmation:
+    title: Subscription confirmation
+    header: yeah!, we really appreciate that you are showing interest on this project. We will keep you update with the progress.
+
+  pricing:
+    title: Pricing
+    header: we really want to make things simple for you
+    month: mo
+    button: Promotion
+
+    price_1:
+      title: 1 graphic novel per month
+      text: Just testing the service
+
+    price_2:
+      title: 2 graphic novels per month
+      text: Most selected option
+
+    price_3:
+      title: 3 graphic novels per month
+      text: For the eager readers
+
+    footer: <span class="asterisk">*</span> you can cancel any time! &middot; Do you have any <a href="./faq">Question?</a>
+
+  privacy_policy:
+    title: Privacy Policy
+    text: >-
+      ### Easy to understand Privacy Policy
+
+      Last updated: April 18, 2021
+
+      ### What data of you we collect, why and with who are we sharing it
+
+      #### Email and Name
+
+      To communicate with you about the evolution of our service
+
+      We allocate this data in mailerlite.com to manage the mailing list
+
+      ### What cookies are we using
+
+      #### Google Analytics cookie
+
+      To check what marketing channels are more efficient to reach people interested in this service
+
+      This cookie is managed by Google
+
+      ### Contact Us
+
+      If you have any questions about this Privacy Policy, You can contact us by email: hello@playcocola.com

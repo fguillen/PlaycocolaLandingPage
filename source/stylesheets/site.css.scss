@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Glory:wght@100;400;600;700&display=swap');
+
+.font-logo {
+  font-family: 'Odibee Sans', cursive;
+}
+
+.font-hero {
+  font-family: 'Glory', sans-serif;
+}
+
+body {
+  background-color: #bcb7a7;
+}
+
+.highlighted {
+    background-color: aliceblue;
+}
+
+strong {
+    background-color: antiquewhite;
+}
+
+.btn-xl {
+    padding: 0.2rem 1rem 0.5rem 1rem;
+    font-size: 2rem;
+}
+
+@media (min-width: 576px) {
+    .btn-xl {
+        padding: 0.5rem 2rem 1rem 2rem;
+        font-size: 3.25rem;
+    }
+}
+
+.container {
+    max-width: 730px;
+}
+
+.asterisk {
+    margin-left: -.6em;
+    vertical-align: top;
+}
+
+
+/* mailerlite form */
+
+.ml-form-embedWrapper .ml-block-form .ml-field-group label {
+    font-family: 'Gloria Hallelujah', cursive !important;
+    font-size: 1.5em !important;
+    margin-top: 1em;
+}
+
+#mlb2-3944242>div>div>div.ml-form-embedBody.ml-form-embedBodyDefault.row-form>form>div.ml-form-embedSubmit>button.primary {
+    font-family: 'Gloria Hallelujah', cursive !important;
+}
+
+#mlb2-3944242.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent h4,
+#mlb2-3944242.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent h4 {
+    font-family: 'Gloria Hallelujah', cursive !important;
+}
+
+#mlb2-3944242.ml-form-embedContainer .ml-form-embedWrapper .ml-form-embedBody .ml-form-embedContent p,
+#mlb2-3944242.ml-form-embedContainer .ml-form-embedWrapper .ml-form-successBody .ml-form-successContent p {
+    font-family: 'Gloria Hallelujah', cursive !important;
+}
+
+.faq-questions p {
+    font-size: 1.25rem;
+}
+
+.faq-questions h4 {
+    background-color: aliceblue;
+}

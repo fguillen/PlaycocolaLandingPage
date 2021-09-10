@@ -1,0 +1,34 @@
+<main class="text-center">
+    <div class="fs-2">
+        <%= md(t("index.header")) %>
+    </div>
+
+    <a href="./subscribe" class="btn btn-warning btn-xl mt-3"><%= t("subscribe_button") %></a>
+
+
+    <header class="mt-5">
+        <%= image_tag "Logo.png", alt: "Playcocola", width: "100px", class: "img-fluid"%>
+        <h1 class="ms-2 highlighted">Playcocola - <%= t("country") %></h1>
+    </header>
+
+    <p class="fs-5"><%= t("index.service_description") %>
+    </p>
+
+    <section class="pt-5">
+        <h2 class="highlighted"><%= t("index.how_it_works") %></h2>
+
+        <h4 class="highlighted"><%= t("index.steps.1_header") %></h4>
+        <%= image_tag "how_to_01.png", class: "img-fluid", alt: "how to 01", width: "400px" %>
+        <p class="fs-5 "><%= t("index.steps.1_text") %></p>
+
+        <h4 class="highlighted"><%= t("index.steps.2_header") %></h4>
+        <%= image_tag "how_to_02.png", class: "img-fluid", alt: "how to 02", width: "400px" %>
+        <p class="fs-5 "><%= t("index.steps.2_text") %></p>
+
+        <h4 class="highlighted"><%= t("index.steps.3_header") %></h4>
+        <%= image_tag "how_to_03.png", class: "img-fluid", alt: "how to 03", width: "400px" %>
+        <p class="fs-5 "><%= t("index.steps.3_text") %></p>
+    </section>
+
+    <a href="./subscribe" class="btn btn-warning btn-xl mt-3"><%= t("subscribe_button") %></a>
+</main>

@@ -1,0 +1,36 @@
+<!-- MailerLite Universal -->
+<script>
+    (function(m, a, i, l, e, r) {
+        m['MailerLiteObject'] = e;
+
+        function f() {
+            var c = {
+                a: arguments,
+                q: []
+            };
+            var r = this.push(c);
+            return "number" != typeof r ? r : f.bind(c.q);
+        }
+        f.q = f.q || [];
+        m[e] = m[e] || f.bind(f.q);
+        m[e].q = m[e].q || f.q;
+        r = a.createElement(i);
+        var _ = a.getElementsByTagName(i)[0];
+        r.async = 1;
+        r.src = l + '?v' + (~~(new Date().getTime() / 1000000));
+        _.parentNode.insertBefore(r, _);
+    })(window, document, 'script', 'https://static.mailerlite.com/js/universal.js', 'ml');
+
+    var ml_account = ml('accounts', '3086542', 's9s5w9q4g9', 'load');
+</script>
+<!-- End MailerLite Universal -->
+
+<main>
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal"><%= t("subscribe.title") %></h1>
+        <p class="fs-5 text-muted pt-4"><%= t("subscribe.header") %></p>
+    </div>
+
+    <div class="ml-form-embed" data-account="3086542:s9s5w9q4g9" data-form="<%= t("mailerlite_form") %>">
+    </div>
+</main>
