@@ -17,21 +17,16 @@
     <%= stylesheet_link_tag "site" %>
     <%= javascript_include_tag "site" %>
 
-    <!-- Cookies -->
-    <script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.1/src/glowCookies.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4GV5KFWRW"></script>
     <script>
-        glowCookies.start('<%= t("cookies.locale") %>', {
-            style: 3,
-            analytics: 'UA-198983266-1',
-            policyLink: './privacy_policy',
-            bannerHeading: '<h2><%= t("cookies.header") %></h2>',
-            bannerDescription: "<%= t("cookies.description") %>",
-            bannerLinkText: "<%= t("cookies.link") %>",
-            acceptBtnText: '<%= t("cookies.accept") %>',
-            rejectBtnText: '<%= t("cookies.reject") %>',
-            hideAfterClick: true
-        });
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-W4GV5KFWRW');
     </script>
+
   </head>
   <body class="font-hero color-background-1">
     <div class="container-fluid p-0">
