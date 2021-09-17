@@ -17,26 +17,21 @@
     <link href="/stylesheets/site.css" rel="stylesheet" />
     <script src="/javascripts/site.js"></script>
 
-    <!-- Cookies -->
-    <script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.1/src/glowCookies.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4GV5KFWRW"></script>
     <script>
-        glowCookies.start('en', {
-            style: 3,
-            analytics: 'UA-198983266-1',
-            policyLink: './privacy_policy.html',
-            bannerHeading: '<h2>The cookies</h2>',
-            bannerDescription: "We use Google Analytics cookies to measure our marketing efforts, if this is ok for you please click Accept :)",
-            bannerLinkText: "Check our Privacy Policy",
-            acceptBtnText: 'Accept',
-            rejectBtnText: 'Reject',
-            hideAfterClick: true
-        });
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-W4GV5KFWRW');
     </script>
+
   </head>
-  <body class="font-hero">
-    <div class="container py-3">
-        <header>
-            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+  <body class="font-hero color-background-1">
+    <div class="container-fluid p-0">
+        <header class='container'>
+            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 color-border-bottom">
                 <a href="./" class="d-flex align-items-center text-dark text-decoration-none">
                     <img src="/images/Logo.png" alt="Playcocola" height="32" class="me-2" />
                     <span class="fs-4 font-logo">Playcocola</span>
@@ -51,51 +46,96 @@
             </div>
         </header>
 
-        <main class="text-center">
-    <div class="fs-2">
-        <p>Are you an indie developer?</p>
+        <main>
+    <section class="font-size-hero text-center mb-3">
+      <p>
+        Are you an indie developer?
+      </p>
 
-<p>Do you want to easily receive videos from your playtesters?</p>
+      <p>
+        Do you want to easily receive videos from your playtesters?
+      </p>
 
-    </div>
-
-    <p class="fs-2">what do you think if I tell you that you can read all these award winner graphic novels for <strong>6€ each</strong> or less?</p>
-
-    <a href="./subscribe.html" class="btn btn-warning btn-xl mt-3">I'm interested</a>
-
-
-    <header class="mt-5">
-        <img src="/images/Logo.png" alt="Playcocola" width="100px" class="img-fluid" />
-        <h1 class="ms-2 highlighted">Playcocola - Germany</h1>
-    </header>
-
-    <p class="fs-5">read all the best award winner graphic novels at a fraction of their price in the comfort of your home. With free delivery to the whole Germany.
-    </p>
-
-    <section class="pt-5">
-        <h2 class="highlighted">How it works</h2>
-
-        <h4 class="highlighted">#1 Select your interests and the quantity</h4>
-        <img src="/images/how_to_01.png" class="img-fluid" alt="how to 01" width="400px" />
-        <p class="fs-5 ">select your interests. Select also how many graphic novels you want to read each month.</p>
-
-        <h4 class="highlighted">#2 Receive your graphic novels</h4>
-        <img src="/images/how_to_02.png" class="img-fluid" alt="how to 02" width="400px" />
-        <p class="fs-5 ">you receive the graphic novels at your home.</p>
-
-        <h4 class="highlighted">#3 Exchange your graphic novels for other ones</h4>
-        <img src="/images/how_to_03.png" class="img-fluid" alt="how to 03" width="400px" />
-        <p class="fs-5 ">send us back, free of charge, your graphic novels already read and go back to step #2.</p>
+      <a href="./subscribe.html" class="btn btn-warning btn-xl mt-3">I'm interested</a>
     </section>
 
-    <a href="./subscribe.html" class="btn btn-warning btn-xl mt-3">I'm interested</a>
+
+    <div class="card card-index py-2 text-center text-md-start color-background-2">
+      <div class="row">
+        <div class="col-md-4 text-md-end">
+          <img src="/images/Bottle.png" class="img-fluid" alt="how to 01" height="250px" />
+        </div>
+        <div class="col-md-4">
+          <div class="card-body">
+            <p class="card-text font-size-hero"><span class="font-logo" style="font-size: 1.2em">Playcocola</span> is a playtesting platform specially made for indie developers. It is simple, easy to use and inexpensive.</p>
+          </div>
+        </div>
+        <div class="col-md-4">
+        </div>
+      </div>
+    </div>
+
+    <div class="card card-index py-2 text-center text-md-start color-background-3 ">
+      <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <div class="card-body">
+            <p class="card-text font-size-hero">
+              Just send an invitation link to your playtesters that will allow them to easily record a video of their session and send it to you by just clicking a button.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="/images/Play_Record.png" class="img-fluid" alt="how to 01" width="400px" />
+        </div>
+      </div>
+    </div>
+
+    <div class="card card-index py-2 text-center text-md-start color-background-2 ">
+      <div class="row">
+        <div class="col-md-4 text-md-end">
+          <img src="/images/Reward.png" class="img-fluid" alt="how to 01" width="400px" />
+        </div>
+        <div class="col-md-4">
+          <div class="card-body">
+            <p class="card-text font-size-hero">
+              Give them an appreciation reward for their effort. It can be anything from a couple of euros on a steam voucher to just a thank you message.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+        </div>
+      </div>
+    </div>
+
+    <div class="card card-index py-2 text-center text-md-start color-background-3 ">
+      <div class="row">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <div class="card-body">
+            <p class="card-text font-size-hero">
+              Visualize all the playtest sessions directly online or download them to your computer. Recontact your playtesters if you need it.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <img src="/images/Dashboard.png" class="img-fluid" alt="how to 01" width="400px" />
+        </div>
+      </div>
+    </div>
+
+
+    <div class="text-center">
+      <a href="./subscribe.html" class="btn btn-warning btn-xl mt-3">I'm interested</a>
+    </div>
 </main>
 
 
-        <footer class="pt-5 my-5 text-muted border-top text-center">
+        <footer class="container pt-5 my-5 text-muted color-border-top text-center">
             Made with ♥ in Berlin &middot; Playcocola &copy; 2021  &middot; <a class="me-3 py-2 text-dark" href="mailto:hello@playcocola.com" target="_blank">Contact <br />
-            <a href="/es">España</a> &middot; <a href="/">Germany</a>
-         </footer>
+        </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>

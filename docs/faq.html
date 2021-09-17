@@ -17,26 +17,21 @@
     <link href="/stylesheets/site.css" rel="stylesheet" />
     <script src="/javascripts/site.js"></script>
 
-    <!-- Cookies -->
-    <script src="https://cdn.jsdelivr.net/gh/manucaralmo/GlowCookies@3.1.1/src/glowCookies.min.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-W4GV5KFWRW"></script>
     <script>
-        glowCookies.start('en', {
-            style: 3,
-            analytics: 'UA-198983266-1',
-            policyLink: './privacy_policy.html',
-            bannerHeading: '<h2>The cookies</h2>',
-            bannerDescription: "We use Google Analytics cookies to measure our marketing efforts, if this is ok for you please click Accept :)",
-            bannerLinkText: "Check our Privacy Policy",
-            acceptBtnText: 'Accept',
-            rejectBtnText: 'Reject',
-            hideAfterClick: true
-        });
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-W4GV5KFWRW');
     </script>
+
   </head>
-  <body class="font-hero">
-    <div class="container py-3">
-        <header>
-            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+  <body class="font-hero color-background-1">
+    <div class="container-fluid p-0">
+        <header class='container'>
+            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 color-border-bottom">
                 <a href="./" class="d-flex align-items-center text-dark text-decoration-none">
                     <img src="/images/Logo.png" alt="Playcocola" height="32" class="me-2" />
                     <span class="fs-4 font-logo">Playcocola</span>
@@ -51,30 +46,30 @@
             </div>
         </header>
 
-        <main class="text-center">
+        <main class="text-center container">
     <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
         <h1 class="display-4 fw-normal">Questions and Answers</h1>
         <p class="fs-5 text-muted pt-4">if you don't find your answers here you can <a href="mailto:hello@playcocola.com" target="_blank">contact us</a> to make your questions.</p>
     </div>
 
     <section class="faq-questions">
-        <h4>What is this?</h4>
+        <h3>What is this?</h3>
 
 <p>It is an online platform to make super easy for indie desktop videogame developers to receive videos from their playtesters sessions.</p>
 
-<h4>Why should I use it?</h4>
+<h3>Why should I use it?</h3>
 
 <p>Watching players playing your game is the best way to</p>
 
-<h4>Why only desktop games?</h4>
+<h3>Why only desktop games?</h3>
 
 <p>We want to specialize on desktop games so we are sure we do one thing good. When we manage to do this we will think about adopting other devices.</p>
 
-<h4>Is the platform ready?</h4>
+<h3>Is the platform ready?</h3>
 
-<p>No yet, we are in development, if you are interested in knowing more <a href="./subscribe.html">subscribe to our mailing list</a> or <a href="mailto:hello@playcocola.com">contact us</a> directly.</p>
+<p>No yet, we are in development, if you are interested in knowing more <a href="./subscribe">subscribe to our mailing list</a> or <a href="mailto:hello@playcocola.com">contact us</a> directly.</p>
 
-<h4>Can I make suggestions?</h4>
+<h3>Can I make suggestions?</h3>
 
 <p>Yes please: <a href="mailto:hello@playcocola.com">contact us</a></p>
 
@@ -84,10 +79,9 @@
 </main>
 
 
-        <footer class="pt-5 my-5 text-muted border-top text-center">
+        <footer class="container pt-5 my-5 text-muted color-border-top text-center">
             Made with ♥ in Berlin &middot; Playcocola &copy; 2021  &middot; <a class="me-3 py-2 text-dark" href="mailto:hello@playcocola.com" target="_blank">Contact <br />
-            <a href="/es">España</a> &middot; <a href="/">Germany</a>
-         </footer>
+        </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
