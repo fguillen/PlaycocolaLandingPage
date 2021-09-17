@@ -43,23 +43,23 @@ en:
     title: Questions and Answers
     header: if you don't find your answers here you can <a href="mailto:hello@playcocola.com" target="_blank">contact us</a> to make your questions.
     questions: >-
-        #### What is this?
+        ### What is this?
 
         It is an online platform to make super easy for indie desktop videogame developers to receive videos from their playtesters sessions.
 
-        #### Why should I use it?
+        ### Why should I use it?
 
         Watching players playing your game is the best way to
 
-        #### Why only desktop games?
+        ### Why only desktop games?
 
         We want to specialize on desktop games so we are sure we do one thing good. When we manage to do this we will think about adopting other devices.
 
-        #### Is the platform ready?
+        ### Is the platform ready?
 
         No yet, we are in development, if you are interested in knowing more [subscribe to our mailing list](./subscribe) or [contact us](mailto:hello@playcocola.com) directly.
 
-        #### Can I make suggestions?
+        ### Can I make suggestions?
 
         Yes please: [contact us](mailto:hello@playcocola.com)
 
@@ -67,38 +67,29 @@ en:
 
   subscribe:
     title: Get informed
-    header: We will launch this service very soon. Be informed and participate in collaborate suggesting functionalities.
+    header: We will launch this service very soon. Be informed and participate collaborating with functionalities suggestions.
 
   confirmation:
-    title: Subscription confirmation
+    title: Email subscription confirmation
     header: yeah!, we really appreciate that you are showing interest on this project. We will keep you update with the progress.
 
   pricing:
     title: Pricing
     header: we really want to make things simple for you
-    month: mo
     button: Promotion
 
-    price_1:
-      title: 1 graphic novel per month
-      text: Just testing the service
+    price:
+      title: Unique price model
+      text: Per video, 1 month retention
 
-    price_2:
-      title: 2 graphic novels per month
-      text: Most selected option
-
-    price_3:
-      title: 3 graphic novels per month
-      text: For the eager readers
-
-    footer: <span class="asterisk">*</span> you can cancel any time! &middot; Do you have any <a href="./faq">Question?</a>
+    footer: Do you have any <a href="./faq">Question?</a>
 
   privacy_policy:
     title: Privacy Policy
     text: >-
       ### Easy to understand Privacy Policy
 
-      Last updated: April 18, 2021
+      Last updated: September 17th, 2021
 
       ### What data of you we collect, why and with who are we sharing it
 

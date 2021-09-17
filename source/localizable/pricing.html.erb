@@ -1,47 +1,19 @@
-<main>
+<main class="container">
     <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
         <h1 class="display-4 fw-normal"><%= t("pricing.title") %></h1>
         <p class="fs-5 text-muted pt-4"><%= t("pricing.header") %></p>
     </div>
 
-    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
-        <div class="col">
+    <div class="row row-cols-1 row-cols-lg-3 mb-3 text-center">
+        <div class="col col-lg-4 offset-lg-4">
             <div class="card mb-4 rounded-3 shadow-sm border-warning">
                 <div class="card-header py-3 border-warning">
-                    <h4 class="my-0 fw-normal"><%= t("pricing.price_1.title") %></h4>
+                    <h4 class="my-0 fw-normal"><%= t("pricing.price.title") %></h4>
                 </div>
                 <div class="card-body">
-                    <h1 class="card-title pricing-card-title">8€<small class="text-muted fw-light">/<%= t("pricing.month") %></small></h1>
+                    <h1 class="card-title pricing-card-title">2€<small class="text-muted fw-light">/video</small></h1>
                     <ul class="list-unstyled mt-3 mb-4">
-                        <li><%= t("pricing.price_1.text") %></li>
-                    </ul>
-                    <a class="w-100 btn btn-lg btn-warning" href="./subscribe"><%= t("pricing.button") %></a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm border-warning">
-                <div class="card-header py-3 border-warning">
-                    <h4 class="my-0 fw-normal"><%= t("pricing.price_2.title") %></h4>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title">12€<small class="text-muted fw-light">/<%= t("pricing.month") %></small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li><%= t("pricing.price_2.text") %></li>
-                    </ul>
-                    <a class="w-100 btn btn-lg btn-warning" href="./subscribe"><%= t("pricing.button") %></a>
-                </div>
-            </div>
-        </div>
-        <div class="col">
-            <div class="card mb-4 rounded-3 shadow-sm border-warning">
-                <div class="card-header py-3 border-warning">
-                    <h4 class="my-0 fw-normal"><%= t("pricing.price_3.title") %></h4>
-                </div>
-                <div class="card-body">
-                    <h1 class="card-title pricing-card-title">16€<small class="text-muted fw-light">/<%= t("pricing.month") %></small></h1>
-                    <ul class="list-unstyled mt-3 mb-4">
-                        <li><%= t("pricing.price_3.text") %></li>
+                        <li><%= t("pricing.price.text") %></li>
                     </ul>
                     <a class="w-100 btn btn-lg btn-warning" href="./subscribe"><%= t("pricing.button") %></a>
                 </div>
