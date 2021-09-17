@@ -4,8 +4,8 @@ en:
   country: Germany
   subscribe_button: I'm interested
   mailerlite_form: 4717853:y3t6q3
-  description: Read all the best award winner graphic novels at a fraction of their price in the comfort of your home. With free delivery to the whole Germany.
-  keywords: award winning graphic novels, best graphic novels, cheap graphic novels, second hand graphic novels
+  description: See your players and playtesters while they are playing your video game
+  keywords: playtester indiedev
 
   cookies:
     locale: en
@@ -26,18 +26,9 @@ en:
     text: Made with ♥ in Berlin &middot; Playcocola &copy; 2021
 
   index:
-    title: All the award winner graphic novels at a fraction of their price
+    title: See your players and playtesters while they are playing your video game
     button: I'm interested
-    header_sub: what do you think if I tell you that you can read all these award winner graphic novels for <strong>6€ each</strong> or less?
-    service_description: read all the best award winner graphic novels at a fraction of their price in the comfort of your home. With free delivery to the whole Germany.
-    how_it_works: How it works
-    steps:
-      1_header: "#1 Select your interests and the quantity"
-      1_text: select your interests. Select also how many graphic novels you want to read each month.
-      2_header: "#2 Receive your graphic novels"
-      2_text: you receive the graphic novels at your home.
-      3_header: "#3 Exchange your graphic novels for other ones"
-      3_text: "send us back, free of charge, your graphic novels already read and go back to step #2."
+
 
   faq:
     title: Questions and Answers
