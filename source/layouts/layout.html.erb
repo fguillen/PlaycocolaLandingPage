@@ -36,7 +36,7 @@
   <body class="font-hero color-background-1">
     <div class="container-fluid p-0">
         <header class='container'>
-            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+            <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 color-border-bottom">
                 <a href="./" class="d-flex align-items-center text-dark text-decoration-none">
                     <%= image_tag "Logo.png", alt: "Playcocola", height: 32, class: "me-2"%>
                     <span class="fs-4 font-logo">Playcocola</span>
@@ -53,7 +53,7 @@
 
         <%= yield %>
 
-        <footer class="pt-5 my-5 text-muted border-top text-center">
+        <footer class="container pt-5 my-5 text-muted color-border-top text-center">
             <%= t("footer.text") %>  &middot; <a class="me-3 py-2 text-dark" href="mailto:hello@playcocola.com" target="_blank"><%= t("menu.contact") %> <br />
             <a href="/es">España</a> &middot; <a href="/">Germany</a>
         </footer>
