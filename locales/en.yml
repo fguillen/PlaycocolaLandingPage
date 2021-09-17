@@ -36,11 +36,11 @@ en:
     questions: >-
         ### What is this?
 
-        It is an online platform to make super easy for indie desktop videogame developers to receive videos from their playtesters sessions.
+        It is an online platform to make super easy for indie game developers to receive videos from their playtesters sessions.
 
         ### Why should I use it?
 
-        Watching players playing your game is the best way to
+        Watching players playing your game is the best way to understand how/when/how much do they engage with your creation.
 
         ### Why only desktop games?
 
@@ -48,7 +48,7 @@ en:
 
         ### Is the platform ready?
 
-        No yet, we are in development, if you are interested in knowing more [subscribe to our mailing list](./subscribe) or [contact us](mailto:hello@playcocola.com) directly.
+        No yet, we are in development, if you are interested in knowing more [subscribe to our mailing list](./subscribe.html) or [contact us](mailto:hello@playcocola.com) directly.
 
         ### Can I make suggestions?
 
@@ -61,17 +61,17 @@ en:
     header: We will launch this service very soon. Be informed and participate collaborating with functionalities suggestions.
 
   confirmation:
-    title: Email subscription confirmation
-    header: yeah!, we really appreciate that you are showing interest on this project. We will keep you update with the progress.
+    title: Email confirmed!
+    header: Welcome!, we really appreciate your interest on this project. We will keep you updated with the progress.
 
   pricing:
     title: Pricing
-    header: we really want to make things simple for you
-    button: Promotion
+    header: We really want to make things simple for you
+    button: I'm interested
 
     price:
       title: Unique price model
-      text: Per video, 1 month retention
+      text: Per video session recorded, 1 month retention
 
     footer: Do you have any <a href="./faq">Question?</a>
 
